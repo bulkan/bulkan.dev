@@ -1,0 +1,17 @@
+{
+  "name": "bulkan.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vuepress dev",
+    "build": "vuepress build",
+    "now-build": "vuepress build -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^0.14.9"
+  }
+}

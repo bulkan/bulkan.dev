@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["bulkanevcimen.com", "bulkan.dev"],
+  "name": "bulkan.dev",
+  "builds": [
+    {"src": "package.json", "use": "@now/static-build"}
+  ],
+  "routes": [
+    {"src": "^/static/(.*)", "dest": "/static/$1"}
+  ]
+}
