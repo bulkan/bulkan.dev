@@ -1,6 +1,6 @@
 module.exports = {
   title: 'bulkan.dev',
-  description: 'All the projects that are deployed',
+  description: 'Click on one of the links to view the project',
   themeConfig: {
     navbar: false,
     search: false
